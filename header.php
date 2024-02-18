@@ -4,8 +4,8 @@
         <?php wp_head() ?>
     </head>
     <body>
-    <header class="site-header">
-      <div class="container ">
+            <header class="site-header bg-blue-500">
+      <div class="container">
         <h1 class="school-logo-text float-left">
           <a href="#"><strong>Fictional</strong> University</a>
         </h1>

@@ -588,8 +588,12 @@ video {
   float: left;
 }
 
-.bg-\[assets\/image\.jpg\] {
-  background-color: assets/image.jpg;
+.flex {
+  display: flex;
+}
+
+.h-64 {
+  height: 16rem;
 }
 
 .bg-blue-500 {
@@ -603,16 +607,6 @@ video {
 
 .bg-center {
   background-position: center;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 body{

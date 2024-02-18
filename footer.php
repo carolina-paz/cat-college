@@ -1,17 +1,17 @@
-<footer class="bg-[assets/image.jpg] bg-cover bg-center text-white py-8">
-      <div class="site-footer__inner container container--narrow">
-        <div class="group">
-          <div class="site-footer__col-one">
-            <h1 class="school-logo-text school-logo-text--alt-color">
+<footer class="bg-cover bg-center bg-opacity-150 h-64" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/footer-heads.png');"">
+      <div >
+        <div class="flex">
+          <div class="">
+            <h1 class="">
               <a href="#"><strong>Fictional</strong> University</a>
             </h1>
-            <p><a class="site-footer__link" href="#">555.555.5555</a></p>
+            <p><a  href="#">555.555.5555</a></p>
           </div>
 
-          <div class="site-footer__col-two-three-group">
-            <div class="site-footer__col-two">
-              <h3 class="headline headline--small">Explore</h3>
-              <nav class="nav-list">
+          <div class=" flex">
+            <div class="">
+              <h3 class="">Explore</h3>
+              <nav >
                 <ul>
                   <li><a href="#">About Us</a></li>
                   <li><a href="#">Programs</a></li>
@@ -21,9 +21,9 @@
               </nav>
             </div>
 
-            <div class="site-footer__col-three">
-              <h3 class="headline headline--small">Learn</h3>
-              <nav class="nav-list">
+            <div >
+              <h3 >Learn</h3>
+              <nav >
                 <ul>
                   <li><a href="#">Legal</a></li>
                   <li><a href="#">Privacy</a></li>
@@ -33,10 +33,10 @@
             </div>
           </div>
 
-          <div class="site-footer__col-four">
-            <h3 class="headline headline--small">Connect With Us</h3>
+          <div >
+            <h3 >Connect With Us</h3>
             <nav>
-              <ul class="min-list social-icons-list group">
+              <ul >
                 <li>
                   <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>
