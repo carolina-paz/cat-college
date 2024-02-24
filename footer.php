@@ -1,16 +1,16 @@
-<footer class="bg-cover bg-center bg-opacity-150 h-64" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/footer-heads.png');"">
+<footer class="bg-cover bg-center  h-64 text-[#f2f2f2] font-Graphik" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/footer-heads.png');"">
       <div >
-        <div class="flex">
-          <div class="">
-            <h1 class="">
-              <a href="#"><strong>Fictional</strong> University</a>
+        <div class="flex justify-around items-start">
+          <div class="mt-5">
+            <h1 class="font-thin font-Montserrat text-xl">
+              <a href="#"><strong>U. Garras Doradas</strong></a>
             </h1>
             <p><a  href="#">555.555.5555</a></p>
           </div>
 
-          <div class=" flex">
-            <div class="">
-              <h3 class="">Explore</h3>
+          <div class="flex mt-5 justify-between ">
+            <div class="mr-12">
+              <h3 class="font-thin font-Montserrat text-lg">Explore</h3>
               <nav >
                 <ul>
                   <li><a href="#">About Us</a></li>
@@ -21,8 +21,8 @@
               </nav>
             </div>
 
-            <div >
-              <h3 >Learn</h3>
+            <div class="ml-12">
+              <h3 class="font-thin font-Montserrat text-lg">Learn</h3>
               <nav >
                 <ul>
                   <li><a href="#">Legal</a></li>
@@ -33,8 +33,8 @@
             </div>
           </div>
 
-          <div >
-            <h3 >Connect With Us</h3>
+          <div class="mt-5">
+            <h3 class="font-thin font-Montserrat text-lg">Connect With Us</h3>
             <nav>
               <ul >
                 <li>
