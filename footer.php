@@ -1,4 +1,4 @@
-<footer class="bg-cover bg-center  h-64 text-[#f2f2f2] font-Graphik" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/footer-heads.png');"">
+<footer class="bg-cover bg-center text-lg h-64 text-[#f2f2f2] font-Graphik" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/footer-heads.png');"">
       <div >
         <div class="flex justify-around items-start">
           <div class="mt-5">
@@ -36,7 +36,7 @@
           <div class="mt-5">
             <h3 class="font-thin font-Montserrat text-lg">Connect With Us</h3>
             <nav>
-              <ul >
+              <ul class="flex justify-between ">
                 <li>
                   <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>

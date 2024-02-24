@@ -610,6 +610,10 @@ video {
   height: 16rem;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
 .items-start{
   align-items: flex-start;
 }
@@ -622,17 +626,16 @@ video {
   justify-content: space-around;
 }
 
-.bg-blue-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .bg-cover{
   background-size: cover;
 }
 
 .bg-center{
   background-position: center;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .font-Montserrat{
@@ -654,6 +657,10 @@ video {
 .text-\[\#f2f2f2\]{
   --tw-text-opacity: 1;
   color: rgb(242 242 242 / var(--tw-text-opacity));
+}
+
+.opacity-50{
+  opacity: 0.5;
 }
 
 body{

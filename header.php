@@ -4,16 +4,16 @@
         <?php wp_head() ?>
     </head>
     <body>
-            <header class="site-header bg-blue-500">
-      <div class="container">
-        <h1 class="school-logo-text float-left">
-          <a href="#"><strong>Fictional</strong> University</a>
+            <header class="site-head bg-cover bg-center p-4 h-[300px] opacity-50" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/gato.jpeg');">
+      <div class="container flex justify-between " >
+        <h1 class="">
+          <a href="#"><strong>Garras Doradas</strong></a>
         </h1>
         <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
         <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
-        <div class="site-header__menu group">
-          <nav class="main-navigation">
-            <ul>
+        <div class="flex">
+          <nav class="flex">
+            <ul class="flex justify-between">
               <li><a href="#">About Us</a></li>
               <li><a href="#">Programs</a></li>
               <li><a href="#">Events</a></li>
